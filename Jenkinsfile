@@ -1,6 +1,5 @@
  
- #!groovy
- pipeline{
+pipeline{
     agent any
     stage('CheckoutModule1') {
         steps {
